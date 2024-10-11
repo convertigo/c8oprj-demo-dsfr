@@ -1,0 +1,347 @@
+↓UseSharedComponent [ngx.components.UIUseShared-1718982823058]: 
+  sharedcomponent: DemoDsfr.Application.NgxApp.FicheHeader
+↓Tag [ngx.components.UIElement-1718982823061]: 
+  tagName: article
+  ↓Heading [ngx.components.UIDynamicTag-1718982823064]: 
+    beanData: '{"ionBean":"Heading"}'
+    tagName: h1
+    ↓Text [ngx.components.UIText-1718982823067]: 
+      textValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:Fiches pratiques par thème
+  ↓Div [ngx.components.UIDynamicElement-1718982823070]: 
+    beanData: '{"ionBean":"DivTag"}'
+    tagName: div
+    ↓Tag [ngx.components.UIElement-1718982823073]: 
+      tagName: p
+      ↓Text [ngx.components.UIText-1718982823076]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Nous vous guidons dans l'ensemble des démarches que vous devez effectuer.
+      ↓Attr [ngx.components.UIAttribute-1718982823079]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:fr-text--lg
+    ↓Attr [ngx.components.UIAttribute-1718982823082]: 
+      attrName: class
+      attrValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:fr-mb-6w
+  ↓Div1 [ngx.components.UIDynamicElement-1718982823085]: 
+    beanData: '{"ionBean":"DivTag"}'
+    tagName: div
+    ↓DsfrTile [ngx.components.UIDynamicElement-1718982823088]: 
+      beanData: |
+        '{
+         "ionBean": "DsfrTileComponent",
+         "artworkDirPath": "script:''assets''",
+         "noIcon": "plain:true",
+         "rotateOn": "plain",
+         "customBackground": "plain:transparent",
+         "download": "plain:false",
+         "downloadAssessFile": "plain:false",
+         "downloadDirect": "plain:false",
+         "heading": "plain:Papiers - Citoyenneté - Élections",
+         "headingLevel": "plain:H3",
+         "size": "plain:SM"
+        }'
+      tagName: dsfr-tile
+      ↓Attr [ngx.components.UIAttribute-1718982823091]: 
+        attrName: '[imagePath]'
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: source:{"filter":"Asset","project":"DemoDsfr","input":"","model":{"data":[{"asset":"'assets\/national-identity-card.svg'"}],"path":"","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓Attr1 [ngx.components.UIAttribute-1718982823094]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:fr-col-12 fr-col-sm-6 fr-col-md-3
+    ↓DsfrTile1 [ngx.components.UIDynamicElement-1718982823097]: 
+      beanData: |
+        '{
+         "ionBean": "DsfrTileComponent",
+         "artworkDirPath": "script:''assets''",
+         "noIcon": "plain:true",
+         "rotateOn": "plain",
+         "download": "plain:false",
+         "downloadAssessFile": "plain:false",
+         "downloadDirect": "plain:false",
+         "heading": "plain:Famille-Scolarité",
+         "headingLevel": "plain:H3",
+         "size": "plain:SM"
+        }'
+      tagName: dsfr-tile
+      ↓Attr [ngx.components.UIAttribute-1718982823100]: 
+        attrName: '[imagePath]'
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: source:{"filter":"Asset","project":"DemoDsfr","input":"","model":{"data":[{"asset":"'assets\/school.svg'"}],"path":"","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓Attr1 [ngx.components.UIAttribute-1718982823103]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:fr-col-12 fr-col-sm-6 fr-col-md-3
+    ↓DsfrTile2 [ngx.components.UIDynamicElement-1718982823106]: 
+      beanData: |
+        '{
+         "ionBean": "DsfrTileComponent",
+         "artworkDirPath": "script:''assets''",
+         "noIcon": "plain:true",
+         "rotateOn": "plain",
+         "download": "plain:false",
+         "downloadAssessFile": "plain:false",
+         "downloadDirect": "plain:false",
+         "heading": "plain:Social - Santé",
+         "headingLevel": "plain:H3",
+         "size": "plain:SM"
+        }'
+      tagName: dsfr-tile
+      ↓Attr [ngx.components.UIAttribute-1718982823109]: 
+        attrName: '[imagePath]'
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: source:{"filter":"Asset","project":"DemoDsfr","input":"","model":{"data":[{"asset":"'assets\/health.svg'"}],"path":"","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓Attr1 [ngx.components.UIAttribute-1718982823112]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:fr-col-12 fr-col-sm-6 fr-col-md-3
+    ↓DsfrTile3 [ngx.components.UIDynamicElement-1718982823115]: 
+      beanData: |
+        '{
+         "ionBean": "DsfrTileComponent",
+         "artworkDirPath": "script:''assets''",
+         "noIcon": "plain:true",
+         "rotateOn": "plain",
+         "download": "plain:false",
+         "downloadAssessFile": "plain:false",
+         "downloadDirect": "plain:false",
+         "heading": "plain:Travail - Formation",
+         "headingLevel": "plain:H3",
+         "size": "plain:SM"
+        }'
+      tagName: dsfr-tile
+      ↓Attr [ngx.components.UIAttribute-1718982823118]: 
+        attrName: '[imagePath]'
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: source:{"filter":"Asset","project":"DemoDsfr","input":"","model":{"data":[{"asset":"'assets\/icone-creation-association.svg'"}],"path":"","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓Attr1 [ngx.components.UIAttribute-1718982823121]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:fr-col-12 fr-col-sm-6 fr-col-md-3
+    ↓Style [ngx.components.UIStyle-1718982823124]: 
+      styleContent: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+            →: |
+              '	display: flex;
+              	flex-wrap: wrap;
+              	flex-direction: row;
+              '
+    ↓DsfrTile4 [ngx.components.UIDynamicElement-1718982823127]: 
+      beanData: |
+        '{
+         "ionBean": "DsfrTileComponent",
+         "artworkDirPath": "script:''assets''",
+         "noIcon": "plain:true",
+         "rotateOn": "plain",
+         "customBackground": "plain:transparent",
+         "download": "plain:false",
+         "downloadAssessFile": "plain:false",
+         "downloadDirect": "plain:false",
+         "heading": "plain:Logement",
+         "headingLevel": "plain:H3",
+         "size": "plain:SM"
+        }'
+      tagName: dsfr-tile
+      ↓Attr [ngx.components.UIAttribute-1718982823130]: 
+        attrName: '[imagePath]'
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: source:{"filter":"Asset","project":"DemoDsfr","input":"","model":{"data":[{"asset":"'assets\/house.svg'"}],"path":"","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓Attr1 [ngx.components.UIAttribute-1718982823133]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:fr-col-12 fr-col-sm-6 fr-col-md-3
+    ↓DsfrTile5 [ngx.components.UIDynamicElement-1718982823136]: 
+      beanData: |
+        '{
+         "ionBean": "DsfrTileComponent",
+         "artworkDirPath": "script:''assets''",
+         "noIcon": "plain:true",
+         "rotateOn": "plain",
+         "download": "plain:false",
+         "downloadAssessFile": "plain:false",
+         "downloadDirect": "plain:false",
+         "heading": "plain:Transports - Mobilité",
+         "headingLevel": "plain:H3",
+         "size": "plain:SM"
+        }'
+      tagName: dsfr-tile
+      ↓Attr [ngx.components.UIAttribute-1718982823139]: 
+        attrName: '[imagePath]'
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: source:{"filter":"Asset","project":"DemoDsfr","input":"","model":{"data":[{"asset":"'assets\/icone-demenagement.svg'"}],"path":"","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓Attr1 [ngx.components.UIAttribute-1718982823142]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:fr-col-12 fr-col-sm-6 fr-col-md-3
+    ↓DsfrTile6 [ngx.components.UIDynamicElement-1718982823145]: 
+      beanData: |
+        '{
+         "ionBean": "DsfrTileComponent",
+         "artworkDirPath": "script:''assets''",
+         "noIcon": "plain:true",
+         "rotateOn": "plain",
+         "download": "plain:false",
+         "downloadAssessFile": "plain:false",
+         "downloadDirect": "plain:false",
+         "heading": "plain:Argent - Impôts - Consommation",
+         "headingLevel": "plain:H3",
+         "size": "plain:SM"
+        }'
+      tagName: dsfr-tile
+      ↓Attr [ngx.components.UIAttribute-1718982823148]: 
+        attrName: '[imagePath]'
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: source:{"filter":"Asset","project":"DemoDsfr","input":"","model":{"data":[{"asset":"'assets\/money.svg'"}],"path":"","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓Attr1 [ngx.components.UIAttribute-1718982823151]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:fr-col-12 fr-col-sm-6 fr-col-md-3
+    ↓DsfrTile7 [ngx.components.UIDynamicElement-1718982823154]: 
+      beanData: |
+        '{
+         "ionBean": "DsfrTileComponent",
+         "artworkDirPath": "script:''assets''",
+         "noIcon": "plain:true",
+         "rotateOn": "plain",
+         "download": "plain:false",
+         "downloadAssessFile": "plain:false",
+         "downloadDirect": "plain:false",
+         "heading": "plain:Justice",
+         "headingLevel": "plain:H3",
+         "size": "plain:SM"
+        }'
+      tagName: dsfr-tile
+      ↓Attr [ngx.components.UIAttribute-1718982823157]: 
+        attrName: '[imagePath]'
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: source:{"filter":"Asset","project":"DemoDsfr","input":"","model":{"data":[{"asset":"'assets\/justice.svg'"}],"path":"","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓Attr1 [ngx.components.UIAttribute-1718982823160]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:fr-col-12 fr-col-sm-6 fr-col-md-3
+    ↓DsfrTile8 [ngx.components.UIDynamicElement-1718982823163]: 
+      beanData: |
+        '{
+         "ionBean": "DsfrTileComponent",
+         "artworkDirPath": "script:''assets''",
+         "noIcon": "plain:true",
+         "rotateOn": "plain",
+         "customBackground": "plain:transparent",
+         "download": "plain:false",
+         "downloadAssessFile": "plain:false",
+         "downloadDirect": "plain:false",
+         "heading": "plain:Étranger - Europe",
+         "headingLevel": "plain:H3",
+         "size": "plain:SM"
+        }'
+      tagName: dsfr-tile
+      ↓Attr [ngx.components.UIAttribute-1718982823166]: 
+        attrName: '[imagePath]'
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: source:{"filter":"Asset","project":"DemoDsfr","input":"","model":{"data":[{"asset":"'assets\/icone-depart-etranger.svg'"}],"path":"","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓Attr1 [ngx.components.UIAttribute-1718982823169]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:fr-col-12 fr-col-sm-6 fr-col-md-3
+    ↓DsfrTile9 [ngx.components.UIDynamicElement-1718982823172]: 
+      beanData: |
+        '{
+         "ionBean": "DsfrTileComponent",
+         "artworkDirPath": "script:''assets''",
+         "noIcon": "plain:true",
+         "rotateOn": "plain",
+         "download": "plain:false",
+         "downloadAssessFile": "plain:false",
+         "downloadDirect": "plain:false",
+         "heading": "plain:Loisirs - Sports - Culture",
+         "headingLevel": "plain:H3",
+         "size": "plain:SM"
+        }'
+      tagName: dsfr-tile
+      ↓Attr [ngx.components.UIAttribute-1718982823175]: 
+        attrName: '[imagePath]'
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: source:{"filter":"Asset","project":"DemoDsfr","input":"","model":{"data":[{"asset":"'assets\/icone-evenement-association.svg'"}],"path":"","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓Attr1 [ngx.components.UIAttribute-1718982823178]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:fr-col-12 fr-col-sm-6 fr-col-md-3
+    ↓DsfrTile10 [ngx.components.UIDynamicElement-1718982823181]: 
+      beanData: |
+        '{
+         "ionBean": "DsfrTileComponent",
+         "artworkDirPath": "script:''assets''",
+         "noIcon": "plain:true",
+         "rotateOn": "plain",
+         "download": "plain:false",
+         "downloadAssessFile": "plain:false",
+         "downloadDirect": "plain:false",
+         "heading": "plain:Associations",
+         "headingLevel": "plain:H3",
+         "size": "plain:SM"
+        }'
+      tagName: dsfr-tile
+      ↓Attr [ngx.components.UIAttribute-1718982823184]: 
+        attrName: '[imagePath]'
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: source:{"filter":"Asset","project":"DemoDsfr","input":"","model":{"data":[{"asset":"'assets\/human-cooperation.svg'"}],"path":"","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓Attr1 [ngx.components.UIAttribute-1718982823187]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:fr-col-12 fr-col-sm-6 fr-col-md-3

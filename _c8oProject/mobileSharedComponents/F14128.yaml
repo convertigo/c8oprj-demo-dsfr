@@ -1,0 +1,209 @@
+↓Div [ngx.components.UIDynamicElement-1718877442235]: 
+  beanData: '{"ionBean":"DivTag"}'
+  isEnabled: false
+  tagName: div
+  ↓DsfrButtonsGroup [ngx.components.UIDynamicElement-1718877838831]: 
+    beanData: |
+      '{
+       "ionBean": "DsfrButtonsGroupComponent",
+       "equisized": "plain:true",
+       "inline": "plain:always",
+       "size": "plain:SM"
+      }'
+    tagName: dsfr-buttons-group
+    ↓DsfrButton [ngx.components.UIDynamicElement-1718877929305]: 
+      beanData: '{"ionBean":"DsfrButtonComponent","icon":"plain:fr-icon-checkbox-circle-line"}'
+      tagName: dsfr-button
+    ↓DsfrButton1 [ngx.components.UIDynamicElement-1718878507011]: 
+      beanData: '{"ionBean":"DsfrButtonComponent","icon":"plain:fr-icon-checkbox-circle-line"}'
+      tagName: dsfr-button
+    ↓DsfrButton2 [ngx.components.UIDynamicElement-1718878510534]: 
+      beanData: '{"ionBean":"DsfrButtonComponent","icon":"plain:fr-icon-checkbox-circle-line"}'
+      tagName: dsfr-button
+    ↓DsfrButton3 [ngx.components.UIDynamicElement-1718878513517]: 
+      beanData: '{"ionBean":"DsfrButtonComponent","icon":"plain:fr-icon-checkbox-circle-line"}'
+      tagName: dsfr-button
+  ↓DsfrTranslate [ngx.components.UIDynamicElement-1718878536807]: 
+    beanData: '{"ionBean":"DsfrTranslateComponent"}'
+    tagName: dsfr-translate
+  ↓Style [ngx.components.UIStyle-1718879828806]: 
+    styleContent: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+          →: |
+            '	display: flex;
+            	flex-direction: row;
+            	justify-content: space-between;
+            '
+  ↓Attr [ngx.components.UIAttribute-1718887063855]: 
+    attrName: class
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: plain:fr-my-4w
+↓UseSharedComponent [ngx.components.UIUseShared-1718891098357]: 
+  sharedcomponent: DemoDsfr.Application.NgxApp.FicheHeader
+↓Tag [ngx.components.UIElement-1718881133127]: 
+  tagName: article
+  ↓Heading [ngx.components.UIDynamicTag-1718880000980]: 
+    beanData: '{"ionBean":"Heading"}'
+    tagName: h1
+    ↓Text [ngx.components.UIText-1718880000983]: 
+      textValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:Je déménage en France
+  ↓Div1 [ngx.components.UIDynamicElement-1718882677157]: 
+    beanData: '{"ionBean":"DivTag"}'
+    tagName: div
+    ↓Attr [ngx.components.UIAttribute-1718882487583]: 
+      attrName: class
+      attrValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:fr-my-4w
+    ↓DsfrAlert [ngx.components.UIDynamicElement-1718880070738]: 
+      beanData: |
+        '{
+         "ionBean": "DsfrAlertComponent",
+         "heading": "plain:Élections législatives 2024 : s''inscrire pour voter dans sa nouvelle commune",
+         "message": "plain:Pour voter dans votre nouvelle commune lors des élections législatives 2024, vous devez vous inscrire sur les listes électorales de cette commune avant une date limite.\r\n\r\nSi vous ne pouvez pas vous inscrire à temps, mais que vous êtes encore inscrit sur les listes électorales de votre ancienne commune, vous pouvez y voter en faisant une procuration avant le jour de l''élection ou en vous rendant dans votre bureau de vote le jour de l''élection.\r\n",
+         "severity": "plain:info"
+        }'
+      tagName: dsfr-alert
+  ↓Div [ngx.components.UIDynamicElement-1718882308926]: 
+    beanData: '{"ionBean":"DivTag"}'
+    tagName: div
+    ↓Tag [ngx.components.UIElement-1718882317460]: 
+      tagName: p
+      ↓Text [ngx.components.UIText-1718882343949]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: 'plain:J''ai trouvé un nouveau logement et je vais bientôt déménager. Avant, mais aussi après mon déménagement, je dois faire diverses démarches auprès des organismes publics ou privés (Caf: Caf : Caisse d''allocations familiales, banque et société d''assurance, fournisseur d''électricité, mairie pour voter aux élections...). Les démarches les plus urgentes concernent le logement que je quitte, la scolarité de mes enfants et le transport de tous mes meubles et documents.'
+      ↓Attr [ngx.components.UIAttribute-1718882843228]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:fr-text--lg
+    ↓Attr [ngx.components.UIAttribute-1718882512336]: 
+      attrName: class
+      attrValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:fr-mb-6w
+  ↓Div2 [ngx.components.UIDynamicElement-1718882927113]: 
+    beanData: '{"ionBean":"DivTag"}'
+    tagName: div
+    ↓Div [ngx.components.UIDynamicElement-1718882933509]: 
+      beanData: '{"ionBean":"DivTag"}'
+      tagName: div
+      ↓Heading [ngx.components.UIDynamicTag-1718883116619]: 
+        beanData: '{"ionBean":"Heading"}'
+        tagName: h6
+        ↓Text [ngx.components.UIText-1718883116622]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Quelle est votre situation ?
+      ↓DsfrFormFieldset [ngx.components.UIDynamicElement-1718883365007]: 
+        beanData: '{"ionBean":"DsfrFormFieldsetComponent","inline":"plain:true"}'
+        tagName: dsfr-fieldset
+        ↓DsfrFormRadioRich [ngx.components.UIDynamicElement-1718883966452]: 
+          beanData: |
+            '{
+             "ionBean": "DsfrFormRadioRichComponent",
+             "options": "script:[{label: ''Locataire'', value: ''1''}, {label: ''Propriétaire'', value: ''2''}]",
+             "inline": "plain:true",
+             "legend": "plain:Situation avant le déménagement"
+            }'
+          tagName: dsfr-form-radio-rich
+          ↓Attr [ngx.components.UIAttribute-1718884091091]: 
+            attrName: 
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:*fieldsetElement
+      ↓DsfrFormFieldset1 [ngx.components.UIDynamicElement-1718883496041]: 
+        beanData: '{"ionBean":"DsfrFormFieldsetComponent","inline":"plain:true"}'
+        tagName: dsfr-fieldset
+        ↓DsfrFormRadioRich [ngx.components.UIDynamicElement-1718884204495]: 
+          beanData: |
+            '{
+             "ionBean": "DsfrFormRadioRichComponent",
+             "options": "script:[{label: ''Dans une autre commune'', value: ''1''}, {label: ''Dans la même commune'', value: ''2''}]",
+             "inline": "plain:true",
+             "legend": "plain:Où déménagez-vous ?"
+            }'
+          tagName: dsfr-form-radio-rich
+          ↓Attr [ngx.components.UIAttribute-1718884204498]: 
+            attrName: 
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:*fieldsetElement
+      ↓DsfrFormFieldset2 [ngx.components.UIDynamicElement-1718883502120]: 
+        beanData: '{"ionBean":"DsfrFormFieldsetComponent"}'
+        tagName: dsfr-fieldset
+        ↓DsfrFormRadioRich [ngx.components.UIDynamicElement-1718884781675]: 
+          beanData: |
+            '{
+             "ionBean": "DsfrFormRadioRichComponent",
+             "options": "script:[{label: ''Français'', value: ''1''}, {label: ''Européen (EU)'', value: ''2''}, {label: ''Etranger (autre pays)'', value: ''3''}]",
+             "inline": "plain:true",
+             "legend": "plain:Nationalité"
+            }'
+          tagName: dsfr-form-radio-rich
+          ↓Attr [ngx.components.UIAttribute-1718884781678]: 
+            attrName: 
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:*fieldsetElement
+      ↓DsfrFormFieldset3 [ngx.components.UIDynamicElement-1718883504913]: 
+        beanData: '{"ionBean":"DsfrFormFieldsetComponent"}'
+        tagName: dsfr-fieldset
+        ↓DsfrFormRadioRich [ngx.components.UIDynamicElement-1718885585033]: 
+          beanData: |
+            '{
+             "ionBean": "DsfrFormRadioRichComponent",
+             "options": "script:[{label: ''Oui'', value: ''1''}, {label: ''Non'', value: ''2''}]",
+             "inline": "plain:true",
+             "legend": "plain:Avez-vous un ou plusieurs enfants ?"
+            }'
+          tagName: dsfr-form-radio-rich
+          ↓Attr [ngx.components.UIAttribute-1718885585036]: 
+            attrName: 
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:*fieldsetElement
+      ↓DsfrFormFieldset4 [ngx.components.UIDynamicElement-1718883510326]: 
+        beanData: '{"ionBean":"DsfrFormFieldsetComponent","inline":"plain:true"}'
+        tagName: dsfr-fieldset
+        ↓DsfrFormRadioRich [ngx.components.UIDynamicElement-1718885642715]: 
+          beanData: |
+            '{
+             "ionBean": "DsfrFormRadioRichComponent",
+             "options": "script:[{label: ''Salarié du secteur privé'', value: ''1''}, {label: ''Agent public'', value: ''2''}, {label: ''Demandeur d\\''emploi'', value: ''3''}, {label: ''Retraité'', value: ''4''}]",
+             "inline": "plain:true",
+             "legend": "plain:Situation professionnelle"
+            }'
+          tagName: dsfr-form-radio-rich
+          ↓Attr [ngx.components.UIAttribute-1718885642718]: 
+            attrName: 
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:*fieldsetElement
+    ↓Style [ngx.components.UIStyle-1718883041560]: 
+      styleContent: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+            →: |
+              '	background-color: #e3e3fd;
+              	padding: 1.5rem;
+              '

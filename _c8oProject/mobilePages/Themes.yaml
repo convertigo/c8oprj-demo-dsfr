@@ -1,0 +1,105 @@
+comment: Fiches
+inAutoMenu: false
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        '/*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	public menuHeader = [
+        		{ label: ''Accueil'', routerLink: ''/accueil''},
+        		{ label: ''Actualités\nde vos droits et démarches'', routerLink: ''/actualites''},
+        		{
+        			label: ''Fiches pratiques\npar événement de vie'',
+        			subItems: [
+        				{ label: ''Je déménage'' },
+        				{ label: ''Je cherche un emploi'' },
+        				{ label: ''<b>+Voir tous les événements de la vie</b>'', routerLink: ''/fiches''}
+        			]
+        		},
+        		{
+        			label: ''Fiches pratiques\npar thème'',
+        			subItems: [
+        				{ label: ''Papiers - Citoyenneté - Elections'' },
+        				{ label: ''Famille - Scolarité'' },
+        				{ label: ''<b>+Voir tous les thèmes</b>'', routerLink: ''/themes'' }
+        			]
+        		}
+        	];
+        	
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        '
+segment: themes/:theme
+title: Themes
+↓Content [ngx.components.UIDynamicElement-1718868005905]: 
+  beanData: '{"ionBean":"Content","Padding":"plain:ion-no-padding"}'
+  tagName: ion-content
+  ↓UseSharedComponent [ngx.components.UIUseShared-1718868005908]: 
+    sharedcomponent: DemoDsfr.Application.NgxApp.CommonHeader
+  ↓MainDiv [ngx.components.UIDynamicElement-1718868005911]: 
+    beanData: '{"ionBean":"DivTag"}'
+    tagName: div
+    ↓ContainerDiv [ngx.components.UIDynamicElement-1718868005914]: 
+      beanData: '{"ionBean":"DivTag"}'
+      tagName: div
+      ↓Div [ngx.components.UIDynamicElement-1718868005917]: 
+        beanData: '{"ionBean":"DivTag"}'
+        tagName: div
+        ↓Text [ngx.components.UIText-1718873611033]: 
+          isEnabled: false
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:JSON.stringify(this.navParams)
+        ↓Directive [ngx.components.UIControlDirective-1718873830204]: 
+          directiveName: If
+          directiveSource: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.local.theme === 'all'
+          ↓UseSharedComponent [ngx.components.UIUseShared-1718983582052]: 
+            sharedcomponent: DemoDsfr.Application.NgxApp.AllThemes
+        ↓Directive1 [ngx.components.UIControlDirective-1718874091204]: 
+          directiveName: If
+          directiveSource: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.local.theme !== 'all'
+          ↓UseSharedComponent [ngx.components.UIUseShared-1718874605103]: 
+            sharedcomponent: DemoDsfr.Application.NgxApp.Theme
+            ↓id [ngx.components.UIUseVariable-1718874610750]: 
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:this.local.theme
+        ↓Style [ngx.components.UIStyle-1718881344303]: 
+          styleContent: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+              - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                →: |
+                  '    margin: 0 auto;
+                      max-width: 50rem;
+                  '
+    ↓Attr [ngx.components.UIAttribute-1718868005920]: 
+      attrName: class
+      attrValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:fr-container
+  ↓UseSharedComponent1 [ngx.components.UIUseShared-1718868005923]: 
+    sharedcomponent: DemoDsfr.Application.NgxApp.CommonFooter
+↓PageEvent [ngx.components.UIPageEvent-1718873904321]: 
+  ↓SetLocal [ngx.components.UIDynamicAction-1718873920564]: 
+    beanData: |
+      '{
+       "ionBean": "SetLocalAction",
+       "Property": "plain:theme",
+       "Value": "script:this.navParams.data.theme"
+      }'

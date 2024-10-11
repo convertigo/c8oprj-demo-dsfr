@@ -1,0 +1,198 @@
+↓MainDiv [ngx.components.UIDynamicElement-1717770510981]: 
+  beanData: '{"ionBean":"DivTag"}'
+  tagName: div
+  ↓ContainerDiv [ngx.components.UIDynamicElement-1717770510984]: 
+    beanData: '{"ionBean":"DivTag"}'
+    tagName: div
+    ↓Heading [ngx.components.UIDynamicTag-1717770510990]: 
+      beanData: '{"ionBean":"Heading"}'
+      tagName: h2
+      ↓Text [ngx.components.UIText-1717770510993]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Bienvenue sur le site officiel d’information et de démarches administratives
+    ↓DivBanner [ngx.components.UIDynamicElement-1717770510996]: 
+      beanData: '{"ionBean":"DivTag"}'
+      tagName: div
+      ↓Image [ngx.components.UIDynamicElement-1717770510999]: 
+        beanData: '{"ionBean":"Image","url":"source:{\"filter\":\"Asset\",\"project\":\"DemonDsfr\",\"input\":\"\",\"model\":{\"data\":[{\"asset\":\"''assets\\\/accueil1.jpg''\"}],\"path\":\"\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}"}'
+        selfClose: true
+        tagName: img
+    ↓Div [ngx.components.UIDynamicElement-1717770511002]: 
+      beanData: '{"ionBean":"DivTag"}'
+      tagName: div
+      ↓Heading [ngx.components.UIDynamicTag-1717770511005]: 
+        beanData: '{"ionBean":"Heading"}'
+        tagName: h4
+        ↓Text [ngx.components.UIText-1717770511008]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Fiches pratiques par événement de vie
+      ↓Div [ngx.components.UIDynamicElement-1717770511011]: 
+        beanData: '{"ionBean":"DivTag"}'
+        tagName: div
+        ↓DsfrTile4 [ngx.components.UIDynamicElement-1718726681468]: 
+          beanData: |
+            '{
+             "ionBean": "DsfrTileComponent",
+             "artworkDirPath": "script:''assets''",
+             "artworkFilePath": "script:''assets\/icone-demenagement.svg''",
+             "noIcon": "plain:true",
+             "rotateOn": "plain",
+             "customBackground": "plain:transparent",
+             "download": "plain:false",
+             "downloadAssessFile": "plain:false",
+             "downloadDirect": "plain:false",
+             "heading": "plain:Je déménage",
+             "headingLevel": "plain:H3",
+             "routerLink": "script:''.\/fiches''",
+             "routerLinkExtras": "script:{replaceUrl: true}",
+             "size": "plain:SM"
+            }'
+          isEnabled: false
+          tagName: dsfr-tile
+          ↓Attr [ngx.components.UIAttribute-1718726681471]: 
+            attrName: '[imagePath]'
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'assets/icone-demenagement.svg'
+        ↓DsfrTile [ngx.components.UIDynamicElement-1717770511014]: 
+          beanData: |
+            '{
+             "ionBean": "DsfrTileComponent",
+             "artworkDirPath": "script:''assets''",
+             "noIcon": "plain:true",
+             "rotateOn": "plain",
+             "customBackground": "plain:transparent",
+             "download": "plain:false",
+             "downloadAssessFile": "plain:false",
+             "downloadDirect": "plain:false",
+             "heading": "plain:Je déménage",
+             "headingLevel": "plain:H3",
+             "size": "plain:SM"
+            }'
+          tagName: dsfr-tile
+          ↓Attr [ngx.components.UIAttribute-1718813022946]: 
+            attrName: '[imagePath]'
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: source:{"filter":"Asset","project":"DemoDsfr","input":"","model":{"data":[{"asset":"'assets\/icone-demenagement.svg'"}],"path":"","prefix":"","suffix":"","custom":"","useCustom":false}}
+          ↓Attr1 [ngx.components.UIAttribute-1718895087588]: 
+            attrName: class
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:fr-col-12 fr-col-sm-6 fr-col-md-3
+        ↓DsfrTile1 [ngx.components.UIDynamicElement-1717770511017]: 
+          beanData: |
+            '{
+             "ionBean": "DsfrTileComponent",
+             "artworkDirPath": "script:''assets''",
+             "noIcon": "plain:true",
+             "rotateOn": "plain",
+             "download": "plain:false",
+             "downloadAssessFile": "plain:false",
+             "downloadDirect": "plain:false",
+             "heading": "plain:J''attends un enfant",
+             "headingLevel": "plain:H3",
+             "size": "plain:SM"
+            }'
+          tagName: dsfr-tile
+          ↓Attr [ngx.components.UIAttribute-1718813027818]: 
+            attrName: '[imagePath]'
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: source:{"filter":"Asset","project":"DemoDsfr","input":"","model":{"data":[{"asset":"'assets\/icone-attente-enfant.svg'"}],"path":"","prefix":"","suffix":"","custom":"","useCustom":false}}
+          ↓Attr1 [ngx.components.UIAttribute-1718895116040]: 
+            attrName: class
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:fr-col-12 fr-col-sm-6 fr-col-md-3
+        ↓DsfrTile2 [ngx.components.UIDynamicElement-1717770511020]: 
+          beanData: |
+            '{
+             "ionBean": "DsfrTileComponent",
+             "artworkDirPath": "script:''assets''",
+             "noIcon": "plain:true",
+             "rotateOn": "plain",
+             "download": "plain:false",
+             "downloadAssessFile": "plain:false",
+             "downloadDirect": "plain:false",
+             "heading": "plain:Je recherche un emploi",
+             "headingLevel": "plain:H3",
+             "size": "plain:SM"
+            }'
+          tagName: dsfr-tile
+          ↓Attr [ngx.components.UIAttribute-1718813032229]: 
+            attrName: '[imagePath]'
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: source:{"filter":"Asset","project":"DemoDsfr","input":"","model":{"data":[{"asset":"'assets\/icone-recherche-emploi.svg'"}],"path":"","prefix":"","suffix":"","custom":"","useCustom":false}}
+          ↓Attr1 [ngx.components.UIAttribute-1718895121906]: 
+            attrName: class
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:fr-col-12 fr-col-sm-6 fr-col-md-3
+        ↓DsfrTile3 [ngx.components.UIDynamicElement-1717770511023]: 
+          beanData: |
+            '{
+             "ionBean": "DsfrTileComponent",
+             "artworkDirPath": "script:''assets''",
+             "noIcon": "plain:true",
+             "rotateOn": "plain",
+             "download": "plain:false",
+             "downloadAssessFile": "plain:false",
+             "downloadDirect": "plain:false",
+             "heading": "plain:Je prépare ma retraite",
+             "headingLevel": "plain:H3",
+             "size": "plain:SM"
+            }'
+          tagName: dsfr-tile
+          ↓Attr [ngx.components.UIAttribute-1718813036871]: 
+            attrName: '[imagePath]'
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: source:{"filter":"Asset","project":"DemoDsfr","input":"","model":{"data":[{"asset":"'assets\/icone-preparation-retraite.svg'"}],"path":"","prefix":"","suffix":"","custom":"","useCustom":false}}
+          ↓Attr1 [ngx.components.UIAttribute-1718895125979]: 
+            attrName: class
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:fr-col-12 fr-col-sm-6 fr-col-md-3
+        ↓Style [ngx.components.UIStyle-1717770511026]: 
+          styleContent: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+              - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                →: |
+                  '	display: flex;
+                  	flex-direction: row;
+                  '
+    ↓Style [ngx.components.UIStyle-1717770511032]: 
+      styleContent: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+            →: |
+              '    margin-top: 0px;
+                  margin-right: auto;
+                  margin-bottom: 0px;
+                  margin-left: auto;
+                  max-width: 50rem;
+                  min-height: 14rem;   
+              '
+  ↓Attr [ngx.components.UIAttribute-1717770511035]: 
+    attrName: class
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: plain:fr-container

@@ -1,0 +1,75 @@
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        /*Begin_c8o_CompImport*/
+        import { DsfrHeaderMenuItem } from '@edugouvfr/ngx-dsfr';
+        /*End_c8o_CompImport*/
+        /*Begin_c8o_CompDeclaration*/
+        	/*End_c8o_CompDeclaration*/
+        /*Begin_c8o_CompConstructor*/
+        		/*End_c8o_CompConstructor*/
+        /*Begin_c8o_CompInitialization*/
+        		/*End_c8o_CompInitialization*/
+        /*Begin_c8o_CompFinalization*/
+        		/*End_c8o_CompFinalization*/
+        /*Begin_c8o_CompChanges*/
+        		/*End_c8o_CompChanges*/
+        /*Begin_c8o_CompDoCheck*/
+        		/*End_c8o_CompDoCheck*/
+        /*Begin_c8o_CompAfterContentInit*/
+        		/*End_c8o_CompAfterContentInit*/
+        /*Begin_c8o_CompAfterContentChecked*/
+        		/*End_c8o_CompAfterContentChecked*/
+        /*Begin_c8o_CompAfterViewInit*/
+        		/*End_c8o_CompAfterViewInit*/
+        /*Begin_c8o_CompAfterViewChecked*/
+        		/*End_c8o_CompAfterViewChecked*/
+        /*Begin_c8o_CompFunction*/
+        	/*End_c8o_CompFunction*/
+        
+↓DsfrHeader [ngx.components.UIDynamicElement-1717601547885]: 
+  beanData: |
+    '{
+     "ionBean": "DsfrHeaderComponent",
+     "display": "plain:false",
+     "headerToolsLinks": "script:this.global[''Dsfr''] ? this.global[''Dsfr''][''headerToolLinks''] : []",
+     "logoLink": "script:''.\/''",
+     "menu": "script:this.global[''Dsfr''] ? this.global[''Dsfr''][''menuHeader''] : []",
+     "searchBar": "plain:true",
+     "serviceTagline": "plain:Le site officiel de l''administration française",
+     "serviceTitle": "plain:Service-Public.fr"
+    }'
+  identifier: cHeader
+  tagName: dsfr-header
+  ↓Event [ngx.components.UIControlEvent-1717776259368]: 
+    attrName: (linkSelect)
+    eventName: linkSelect
+    ↓CustomAction [ngx.components.UICustomAction-1717776278215]: 
+      actionValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+            →: |
+              '		page.c8o.log.debug(''[MB] ''+ props.actionFunction +'': ''+ props.actionName);
+              		console.log(event)
+              		resolve();
+              '
+  ↓Event1 [ngx.components.UIControlEvent-1718717857486]: 
+    isEnabled: false
+    ↓CustomAction [ngx.components.UICustomAction-1718717879243]: 
+      actionValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+            →: |
+              '		page.c8o.log.debug(''[MB] ''+ props.actionFunction +'': ''+ props.actionName);
+              		//page.cHeader.menu[2].expanded = false;
+              		console.log("cHeader", page.cHeader);
+              		resolve();
+              '
+↓PageEvent [ngx.components.UIPageEvent-1718721499020]: 
+  ↓InvokeSharedAction [ngx.components.UIDynamicInvoke-1718721509850]: 
+    beanData: '{"ionBean":"InvokeAction"}'
+    stack: DemoDsfr.Application.NgxApp.dsrfInit

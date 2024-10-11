@@ -1,0 +1,120 @@
+comment: Fiches
+inAutoMenu: false
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        '/*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	public menuHeader = [
+        		{ label: ''Accueil'', routerLink: ''/accueil''},
+        		{ label: ''Actualités\nde vos droits et démarches'', routerLink: ''/actualites''},
+        		{
+        			label: ''Fiches pratiques\npar événement de vie'',
+        			subItems: [
+        				{ label: ''Je déménage'' },
+        				{ label: ''Je cherche un emploi'' },
+        				{ label: ''<b>+Voir tous les événements de la vie</b>'', routerLink: ''/fiches''}
+        			]
+        		},
+        		{
+        			label: ''Fiches pratiques\npar thème'',
+        			subItems: [
+        				{ label: ''Papiers - Citoyenneté - Elections'' },
+        				{ label: ''Famille - Scolarité'' },
+        				{ label: ''<b>+Voir tous les thèmes</b>'', routerLink: ''/themes'' }
+        			]
+        		}
+        	];
+        	
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        '
+segment: fiches/:fiche
+title: Fiches
+↓Content [ngx.components.UIDynamicElement-1717772674596]: 
+  beanData: '{"ionBean":"Content","Padding":"plain:ion-no-padding"}'
+  tagName: ion-content
+  ↓UseSharedComponent [ngx.components.UIUseShared-1717772674599]: 
+    sharedcomponent: DemoDsfr.Application.NgxApp.CommonHeader
+  ↓MainDiv [ngx.components.UIDynamicElement-1717772674602]: 
+    beanData: '{"ionBean":"DivTag"}'
+    tagName: div
+    ↓ContainerDiv [ngx.components.UIDynamicElement-1717772674605]: 
+      beanData: '{"ionBean":"DivTag"}'
+      tagName: div
+      ↓Div [ngx.components.UIDynamicElement-1717772674608]: 
+        beanData: '{"ionBean":"DivTag"}'
+        tagName: div
+        ↓Text [ngx.components.UIText-1718879317632]: 
+          isEnabled: false
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:JSON.stringify(this.navParams)
+        ↓Directive [ngx.components.UIControlDirective-1718878669657]: 
+          directiveName: If
+          directiveSource: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.local.fiche === 'all'
+          ↓UseSharedComponent [ngx.components.UIUseShared-1718891630981]: 
+            sharedcomponent: DemoDsfr.Application.NgxApp.AllFiches
+        ↓Directive1 [ngx.components.UIControlDirective-1718878669663]: 
+          directiveName: If
+          directiveSource: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.local.fiche !== 'all'
+          ↓Directive [ngx.components.UIControlDirective-1718878740000]: 
+            directiveName: Switch
+            directiveSource: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:this.local.fiche
+            ↓Directive [ngx.components.UIControlDirective-1718878911454]: 
+              directiveName: SwitchCase
+              directiveSource: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:'F14128'
+              ↓UseSharedComponent [ngx.components.UIUseShared-1718879021114]: 
+                sharedcomponent: DemoDsfr.Application.NgxApp.F14128
+            ↓Directive1 [ngx.components.UIControlDirective-1718878931386]: 
+              directiveName: SwitchDefault
+              ↓Text [ngx.components.UIText-1718878983544]: 
+                isEnabled: false
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:Fiche inexistante
+        ↓Style [ngx.components.UIStyle-1718881515567]: 
+          styleContent: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+              - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                →: |
+                  '    margin: 0 auto;
+                      max-width: 50rem;
+                  '
+    ↓Attr [ngx.components.UIAttribute-1717772674614]: 
+      attrName: class
+      attrValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:fr-container
+  ↓UseSharedComponent1 [ngx.components.UIUseShared-1717772674620]: 
+    sharedcomponent: DemoDsfr.Application.NgxApp.CommonFooter
+↓PageEvent [ngx.components.UIPageEvent-1718878602814]: 
+  ↓SetLocal [ngx.components.UIDynamicAction-1718878602817]: 
+    beanData: |
+      '{
+       "ionBean": "SetLocalAction",
+       "Property": "plain:fiche",
+       "Value": "script:this.navParams.data.fiche"
+      }'

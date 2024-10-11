@@ -1,0 +1,98 @@
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        /*Begin_c8o_CompImport*/
+        /*End_c8o_CompImport*/
+        /*Begin_c8o_CompDeclaration*/
+        	/*End_c8o_CompDeclaration*/
+        /*Begin_c8o_CompConstructor*/
+        		/*End_c8o_CompConstructor*/
+        /*Begin_c8o_CompInitialization*/
+        		/*End_c8o_CompInitialization*/
+        /*Begin_c8o_CompFinalization*/
+        		/*End_c8o_CompFinalization*/
+        /*Begin_c8o_CompChanges*/
+        		/*End_c8o_CompChanges*/
+        /*Begin_c8o_CompDoCheck*/
+        		/*End_c8o_CompDoCheck*/
+        /*Begin_c8o_CompAfterContentInit*/
+        		/*End_c8o_CompAfterContentInit*/
+        /*Begin_c8o_CompAfterContentChecked*/
+        		/*End_c8o_CompAfterContentChecked*/
+        /*Begin_c8o_CompAfterViewInit*/
+        		/*End_c8o_CompAfterViewInit*/
+        /*Begin_c8o_CompAfterViewChecked*/
+        		/*End_c8o_CompAfterViewChecked*/
+        /*Begin_c8o_CompFunction*/
+        	/*End_c8o_CompFunction*/
+        
+↓DsfrFollow [ngx.components.UIDynamicElement-1717760139244]: 
+  beanData: |
+    '{
+     "ionBean": "DsfrFollowComponent",
+     "description": "plain:Abonnement hebdomadaire gratuit",
+     "type": "plain:newsletter-networks"
+    }'
+  tagName: dsfr-follow
+  ↓DsfrFollowLink [ngx.components.UIDynamicElement-1717760239112]: 
+    beanData: |
+      '{
+       "ionBean": "DsfrFollowLinkComponent",
+       "link": "plain:https:\/\/twitter.com\/servicepublicfr",
+       "name": "plain:twitter",
+       "target": "plain:_blank"
+      }'
+    tagName: dsfr-follow-link
+  ↓DsfrFollowLink1 [ngx.components.UIDynamicElement-1717760476012]: 
+    beanData: |
+      '{
+       "ionBean": "DsfrFollowLinkComponent",
+       "link": "plain:https:\/\/www.facebook.com\/ServicePublicFr",
+       "name": "plain:facebook",
+       "target": "plain:_blank"
+      }'
+    tagName: dsfr-follow-link
+  ↓DsfrFollowLink2 [ngx.components.UIDynamicElement-1717760480413]: 
+    beanData: |
+      '{
+       "ionBean": "DsfrFollowLinkComponent",
+       "link": "plain:https:\/\/www.linkedin.com\/company\/service-public-fr",
+       "name": "plain:linkedin",
+       "target": "plain:_blank"
+      }'
+    tagName: dsfr-follow-link
+  ↓DsfrFollowLink3 [ngx.components.UIDynamicElement-1717760484374]: 
+    beanData: |
+      '{
+       "ionBean": "DsfrFollowLinkComponent",
+       "link": "plain:https:\/\/www.instagram.com\/servicepublicfr\/",
+       "name": "plain:instagram",
+       "target": "plain:_blank"
+      }'
+    tagName: dsfr-follow-link
+  ↓DsfrFollowLink4 [ngx.components.UIDynamicElement-1717760569666]: 
+    beanData: |
+      '{
+       "ionBean": "DsfrFollowLinkComponent",
+       "link": "plain:https:\/\/www.youtube.com\/ServicePublicFrance",
+       "name": "plain:youtube",
+       "target": "plain:_blank"
+      }'
+    tagName: dsfr-follow-link
+↓DsfrFooter [ngx.components.UIDynamicElement-1717600212134]: 
+  beanData: |
+    '{
+     "ionBean": "DsfrFooterComponent",
+     "artworkDirPath": "script:''assets''",
+     "display": "plain:false",
+     "institutionalLinks": "plain",
+     "license": "plain",
+     "mandatoryLinks": "script:[]",
+     "partnerMain": "script:this.global[''Dsfr''] ? this.global[''Dsfr''][''mainPartner''] : {}\r\n",
+     "partnersSub": "script:this.global[''Dsfr''] ? this.global[''Dsfr''][''subPartners''] : []",
+     "presentation": "plain:<div>Service Public vous informe et vous oriente vers les services qui permettent de connaître vos obligations, d’exercer vos droits et de faire vos démarches du quotidien.<\/div>",
+     "reboundLinks": "script:this.global[''Dsfr''] ? this.global[''Dsfr''][''reboundLinks''] : []"
+    }'
+  tagName: dsfr-footer

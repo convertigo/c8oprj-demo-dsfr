@@ -1,0 +1,48 @@
+{
+	"all": [
+		{
+			"id": "N19810",
+			"label": "Papiers - Citoyenneté- Elections"
+		},
+		{
+			"id": "",
+			"label": "Famille -Scolarité"
+		},
+		{
+			"id": "",
+			"label": "Santé - Social"
+		},
+		{
+			"id": "",
+			"label": "Travail - Formation"
+		},
+		{
+			"id": "",
+			"label": "Logement"
+		},
+		{
+			"id": "",
+			"label": "Transports - Mobilité"
+		},
+		{
+			"id": "",
+			"label": "Argent - Impôts - Consommation"
+		},
+		{
+			"id": "",
+			"label": "Justice"
+		},
+		{
+			"id": "",
+			"label": "Etranger - Europe"
+		},
+		{
+			"id": "",
+			"label": "Loisirs - Sports - Culture"
+		},
+		{
+			"id": "",
+			"label": "Association"
+		}
+	]
+}

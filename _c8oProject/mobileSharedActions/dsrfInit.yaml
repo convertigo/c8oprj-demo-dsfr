@@ -1,0 +1,135 @@
+↓doInit [ngx.components.UICustomAction-1717756583357]: 
+  actionValue: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+      - com.twinsoft.convertigo.beans.common.FormatedContent: 
+        →: |
+          '			if (page.global[''Dsfr''] == undefined) {
+          				// DsfrHeader
+          				/*let menuHeader = [
+          					{ label: ''Accueil'', expanded: false, routerLink: ''/accueil''},
+          					{ label: ''Actualités\nde vos droits et démarches'', expanded: false, routerLink: ''/actualites''},
+          					{
+          						label: ''Fiches pratiques\npar événement de vie'',
+          						expanded: false,
+          						subItems: [
+          							{ label: ''Je déménage'' },
+          							{ label: ''Je cherche un emploi'' },
+          							{ label: ''<b>+Voir tous les événements de la vie</b>'', routerLink: ''/fiches''}
+          						]
+          					},
+          					{
+          						label: ''Fiches pratiques\npar thème'',
+          						expanded: false, 
+          						subItems: [
+          							{ label: ''Papiers - Citoyenneté - Elections'' },
+          							{ label: ''Famille - Scolarité'' },
+          							{ label: ''<b>+Voir tous les thèmes</b>'', routerLink: ''/themes'' }
+          						]
+          					}
+          				];*/
+          				let replaceUrl = true;
+          				let menuHeader = [
+          					{ label: ''Accueil'', expanded: false, routerLink: ''/accueil'', routerLinkExtras: {replaceUrl: replaceUrl}},
+          					{ label: ''Actualités\nde vos droits et démarches'', expanded: false, routerLink: ''/actualites'', routerLinkExtras: {replaceUrl: replaceUrl}},
+          					{
+          						label: ''Fiches pratiques\npar événement de vie'',
+          						expanded: false,
+          						subItems: [
+          							{ label: ''Je déménage'', routerLink: ''/fiches/F14128'', routerLinkExtras: {replaceUrl: replaceUrl}},
+          							{ label: ''Je cherche un emploi'' },
+          							{ label: ''<b>+Voir tous les événements de la vie</b>'', routerLink: ''/fiches/all'', routerLinkExtras: {replaceUrl: replaceUrl}}
+          						]
+          					},
+          					{
+          						label: ''Fiches pratiques\npar thème'',
+          						expanded: false, 
+          						subItems: [
+          							{ label: ''Papiers - Citoyenneté - Elections'' },
+          							{ label: ''Famille - Scolarité'' },
+          							{ label: ''<b>+Voir tous les thèmes</b>'', routerLink: ''/themes/all'', routerLinkExtras: {replaceUrl: replaceUrl}}
+          						]
+          					}
+          				];
+          	
+          				let headerToolLinks = [
+          					{ 
+          						label: ''Se connecter'',
+          						icon: ''fr-fi-user-fill'',
+          						link: ''https://www.service-public.fr/compte/se-connecter''
+          					},
+          					{ 
+          						label: ''Accéder au site pour les entreprise'', 
+          						icon: ''fr-fi-arrow-right-line'', 
+          						iconPosition: ''right'', 
+          						link: ''https://entreprendre.service-public.fr/'', 
+          						linkTarget: ''_blank''
+          					}
+          				];
+          	
+          				// DsfrFooter
+          				let mainPartner = { 
+          					imagePath: ''assets/logo-your-europe.svg'', 
+          					imageAlt: ''Your Europe - europa.eu - Nouvelle fenêtre'', 
+          					link: ''https://europa.eu/youreurope/index.htm#en'', 
+          					customHeight: ''5rem''
+          				}
+          				
+          				let subPartners = [
+          					{ 
+          						imagePath: ''assets/logo-VP.svg'',
+          						imageAlt: ''Vie publique, au cœur du débat public - vie-publique.fr - Nouvelle fenêtre'',
+          						link: ''https://www.vie-publique.fr/'',
+          						customHeight: ''5rem''
+          					},
+          					{ 
+          						imagePath: ''assets/logo-entreprendre.svg'',
+          						imageAlt: ''Entreprendre.Service-Public - entreprendre.service-Public.fr - Nouvelle fenêtre'',
+          						link: ''https://entreprendre.service-public.fr/'',
+          						customHeight: ''5rem''
+          					},
+          					{ 
+          						imagePath: ''assets/logo-spplus-footer.svg'',
+          						imageAlt: ''Services Publics + - plus.transformation.gouv.fr - Nouvelle fenêtre'',
+          						link: ''https://www.plus.transformation.gouv.fr/'',
+          						customHeight: ''5rem''
+          					},
+          				]
+          				
+          				let reboundLinks = [
+          					{ 
+          						title: ''Fiches pratiques par thèmes'',
+          						links: [
+          							
+          						]
+          					},
+          					{ 
+          						title: ''Démarches et outils'',
+          						links: [
+          							
+          						]
+          					},
+          					{
+          						title: ''Nous connaître'',
+          						links: [
+          							
+          						]
+          					}
+          				]
+          				
+          				
+          				page.global[''Dsfr''] = {
+          					menuHeader: menuHeader,
+          					headerToolLinks: headerToolLinks,
+          					mainPartner: mainPartner,
+          					subPartners: subPartners,
+          					reboundLinks: reboundLinks
+          				}
+          			}
+          			
+          			// close all menus
+          			page[''cHeader''].menu.forEach((i) => (i.expanded = false));
+          			//console.log("page[''cHeader''].menu", page[''cHeader''].menu);
+          
+          			resolve();
+          '

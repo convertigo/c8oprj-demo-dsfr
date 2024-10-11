@@ -1,0 +1,43 @@
+↓Div [ngx.components.UIDynamicElement-1718891098331]: 
+  beanData: '{"ionBean":"DivTag"}'
+  tagName: div
+  ↓DsfrButtonsGroup [ngx.components.UIDynamicElement-1718891098334]: 
+    beanData: |
+      '{
+       "ionBean": "DsfrButtonsGroupComponent",
+       "equisized": "plain:true",
+       "inline": "plain:always",
+       "size": "plain:SM"
+      }'
+    tagName: dsfr-buttons-group
+    ↓DsfrButton [ngx.components.UIDynamicElement-1718891098337]: 
+      beanData: '{"ionBean":"DsfrButtonComponent","icon":"plain:fr-icon-checkbox-circle-line"}'
+      tagName: dsfr-button
+    ↓DsfrButton1 [ngx.components.UIDynamicElement-1718891098340]: 
+      beanData: '{"ionBean":"DsfrButtonComponent","icon":"plain:fr-icon-checkbox-circle-line"}'
+      tagName: dsfr-button
+    ↓DsfrButton2 [ngx.components.UIDynamicElement-1718891098343]: 
+      beanData: '{"ionBean":"DsfrButtonComponent","icon":"plain:fr-icon-checkbox-circle-line"}'
+      tagName: dsfr-button
+    ↓DsfrButton3 [ngx.components.UIDynamicElement-1718891098346]: 
+      beanData: '{"ionBean":"DsfrButtonComponent","icon":"plain:fr-icon-checkbox-circle-line"}'
+      tagName: dsfr-button
+  ↓DsfrTranslate [ngx.components.UIDynamicElement-1718891098349]: 
+    beanData: '{"ionBean":"DsfrTranslateComponent"}'
+    tagName: dsfr-translate
+  ↓Style [ngx.components.UIStyle-1718891098352]: 
+    styleContent: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+          →: |
+            '	display: flex;
+            	flex-direction: row;
+            	justify-content: space-between;
+            '
+  ↓Attr [ngx.components.UIAttribute-1718891098355]: 
+    attrName: class
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: plain:fr-my-4w

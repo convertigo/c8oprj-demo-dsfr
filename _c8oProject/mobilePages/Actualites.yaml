@@ -1,0 +1,114 @@
+comment: Actualités
+inAutoMenu: false
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        '/*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	public menuHeader = [
+        		{ label: ''Accueil'', routerLink: ''/accueil''},
+        		{ label: ''Actualités\nde vos droits et démarches'', routerLink: ''/actualites''},
+        		{
+        			label: ''Fiches pratiques\npar événement de vie'',
+        			subItems: [
+        				{ label: ''Je déménage'' },
+        				{ label: ''Je cherche un emploi'' },
+        				{ label: ''<b>+Voir tous les événements de la vie</b>'', routerLink: ''/fiches''}
+        			]
+        		},
+        		{
+        			label: ''Fiches pratiques\npar thème'',
+        			subItems: [
+        				{ label: ''Papiers - Citoyenneté - Elections'' },
+        				{ label: ''Famille - Scolarité'' },
+        				{ label: ''<b>+Voir tous les thèmes</b>'', routerLink: ''/themes'' }
+        			]
+        		}
+        	];
+        	
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        '
+segment: actualites
+title: Actualités
+↓Content [ngx.components.UIDynamicElement-1717767501220]: 
+  beanData: '{"ionBean":"Content","Padding":"plain:ion-no-padding"}'
+  tagName: ion-content
+  ↓UseSharedComponent [ngx.components.UIUseShared-1717767653096]: 
+    sharedcomponent: DemoDsfr.Application.NgxApp.CommonHeader
+  ↓MainDiv [ngx.components.UIDynamicElement-1717767653099]: 
+    beanData: '{"ionBean":"DivTag"}'
+    tagName: div
+    ↓ContainerDiv [ngx.components.UIDynamicElement-1717767653102]: 
+      beanData: '{"ionBean":"DivTag"}'
+      tagName: div
+      ↓Div [ngx.components.UIDynamicElement-1717767653117]: 
+        beanData: '{"ionBean":"DivTag"}'
+        tagName: div
+        ↓ListContainer [ngx.components.UIDynamicElement-1718018635918]: 
+          beanData: '{"ionBean":"List"}'
+          tagName: ion-list
+          ↓ListHeader [ngx.components.UIDynamicElement-1718018635903]: 
+            beanData: '{"ionBean":"Listheader"}'
+            tagName: ion-list-header
+            ↓Label [ngx.components.UIDynamicElement-1718018635905]: 
+              beanData: '{"ionBean":"Label"}'
+              tagName: ion-label
+              ↓Heading [ngx.components.UIDynamicTag-1718018635907]: 
+                beanData: '{"ionBean":"Heading"}'
+                tagName: h1
+                ↓Text [ngx.components.UIText-1718018635909]: 
+                  textValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                      - MobileSmartSourceType: plain:À LA UNE
+          ↓ListItem [ngx.components.UIDynamicElement-1718018679046]: 
+            beanData: '{"ionBean":"ListItem"}'
+            tagName: ion-item
+            ↓DsfrCard [ngx.components.UIDynamicElement-1718015963930]: 
+              beanData: |
+                '{
+                 "ionBean": "DsfrCardComponent",
+                 "detail": "plain:publié le xxxxx",
+                 "imagePath": "source:{\"filter\":\"Asset\",\"project\":\"DemoDsfr\",\"input\":\"\",\"model\":{\"data\":[{\"asset\":\"''assets\\\/I7115.jpg''\"}],\"path\":\"\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}",
+                 "imageRatio": "plain:16:9\/2",
+                 "badges": "script:[{label: ''Jeux olympiques et paralympiques''}]",
+                 "description": "plain:Billets pour les épreuves sportives, hébergements, restaurants, transports… À l''occasion des Jeux olympiques et paralympiques 2024, la Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF) met à votre disposition une Foire aux questions complète pour vous aider à assister à ces événements dans les meilleures conditions possibles.",
+                 "enlargeLink": "plain:false",
+                 "heading": "plain:Tout savoir sur vos réservations en ligne pour les JOP 2024 !",
+                 "horizontal": "plain:true",
+                 "link": "plain:#"
+                }'
+              tagName: dsfr-card
+          ↓ListItem1 [ngx.components.UIDynamicElement-1718018688426]: 
+            beanData: '{"ionBean":"ListItem"}'
+            tagName: ion-item
+            ↓DsfrCard1 [ngx.components.UIDynamicElement-1718018048517]: 
+              beanData: |
+                '{
+                 "ionBean": "DsfrCardComponent",
+                 "detail": "plain:publié le xxxxx",
+                 "imagePath": "source:{\"filter\":\"Asset\",\"project\":\"DemoDsfr\",\"input\":\"\",\"model\":{\"data\":[{\"asset\":\"''assets\\\/I7114.jpg''\"}],\"path\":\"\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}",
+                 "imageRatio": "plain:16:9\/2",
+                 "badges": "script:[{label: ''Pratique médicale''}]",
+                 "description": "plain:Certaines personnes souhaitant réduire leurs rides et cernes, ou gonfler leurs lèvres, ont recours à des injections d''acide hyaluronique. Cette pratique sera prochainement davantage encadrée. À partir du 1er juillet 2024 vous ne pourrez obtenir des dispositifs médicaux ou des produits injectables contenant de l’acide hyaluronique que sur prescription médicale, en raison des risques graves qu''ils présentent pour la santé.",
+                 "enlargeLink": "plain:false",
+                 "heading": "plain:Une ordonnance bientôt obligatoire pour les produits à base d’acide hyaluronique",
+                 "horizontal": "plain:true",
+                 "link": "plain:#"
+                }'
+              tagName: dsfr-card
+    ↓Attr [ngx.components.UIAttribute-1717767653150]: 
+      attrName: class
+      attrValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:fr-container
+  ↓UseSharedComponent1 [ngx.components.UIUseShared-1717767653153]: 
+    sharedcomponent: DemoDsfr.Application.NgxApp.CommonFooter

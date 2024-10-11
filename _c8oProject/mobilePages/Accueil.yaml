@@ -1,0 +1,50 @@
+↑isRoot: true
+comment: Accueil
+inAutoMenu: false
+preloadPriority: high
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        '/*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	public menuHeader = [
+        		{ label: ''Accueil'', routerLink: ''/accueil''},
+        		{ label: ''Actualités\nde vos droits et démarches'', routerLink: ''/actualites''},
+        		{
+        			label: ''Fiches pratiques\npar événement de vie'',
+        			subItems: [
+        				{ label: ''Je déménage'' },
+        				{ label: ''Je cherche un emploi'' },
+        				{ label: ''<b>+Voir tous les événements de la vie</b>'', routerLink: ''/fiches''}
+        			]
+        		},
+        		{
+        			label: ''Fiches pratiques\npar thème'',
+        			subItems: [
+        				{ label: ''Papiers - Citoyenneté - Elections'' },
+        				{ label: ''Famille - Scolarité'' },
+        				{ label: ''<b>+Voir tous les thèmes</b>'', routerLink: ''/themes'' }
+        			]
+        		}
+        	];
+        	
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        '
+segment: accueil
+title: Accueil
+↓Content [ngx.components.UIDynamicElement-1717662690349]: 
+  beanData: '{"ionBean":"Content","Padding":"plain:ion-no-padding"}'
+  tagName: ion-content
+  ↓UseSharedComponent [ngx.components.UIUseShared-1717662403738]: 
+    sharedcomponent: DemoDsfr.Application.NgxApp.CommonHeader
+  ↓UseSharedComponent2 [ngx.components.UIUseShared-1717770511037]: 
+    sharedcomponent: DemoDsfr.Application.NgxApp.Accueil_Content
+  ↓UseSharedComponent1 [ngx.components.UIUseShared-1717662403741]: 
+    sharedcomponent: DemoDsfr.Application.NgxApp.CommonFooter

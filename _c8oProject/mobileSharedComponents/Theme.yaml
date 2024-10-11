@@ -1,0 +1,6 @@
+↓id [ngx.components.UICompVariable-1718874517992]: 
+↓Text [ngx.components.UIText-1718874537322]: 
+  textValue: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+      - MobileSmartSourceType: script:'Theme:' + this.id
